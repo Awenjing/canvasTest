@@ -490,7 +490,7 @@
                 </div>
               </div>
             </li><!-- 行程信息 -->
-          <!--  <li class="information_stay current">
+            <li class="information_stay current">
               <h4 class="information_main_tit">住宿信息</h4>
               <div class="information_item information_badge_main">
                 <div class="information_item_in">
@@ -502,7 +502,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 住宿信息 &ndash;&gt;
+            </li><!-- 住宿信息 -->
             <li class="information_dinner current">
               <h4 class="information_main_tit">用餐安排</h4>
               <div class="information_item information_badge_main">
@@ -519,7 +519,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 用餐安排 &ndash;&gt;-->
+            </li><!-- 用餐安排 -->
           </ul>
         </div>
 
@@ -584,6 +584,7 @@
       scale:2,
       useCORS:true
     }).then(function(canvas) {
+      canvas.getContext('2d').drawImage(new window.Image(),0,0,$('.save_btn').innerWidth,$('#wrapper').innerHeight);
       if (isAndroid) {
         //这个是安卓操作系统
         dataURL = canvas.toDataURL("image/jpeg",0.1);
@@ -592,7 +593,7 @@
       }
       else if (isIOS) {
         //这个是ios操作系统
-        dataURL = canvas.toDataURL("image/jpeg",0.1);
+        dataURL = canvas.toDataURL("image/jpeg",0.05);
         //dataURL = canvas.toDataURL("image/jpeg",0.1).replace("data:image/jpeg;base64","");
         $("body").append(canvas);
 
