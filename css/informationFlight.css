@@ -1,0 +1,630 @@
+@charset "utf-8";
+
+body{
+  background-color: #f5f5f5;
+}
+
+.information_tit{
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+  background-color: #00adff;
+}
+.information_tit_in{
+  width: 15.15rem;
+  margin: 0 auto;
+  position: relative;
+  overflow: hidden;
+  padding: 0.45rem 0;
+}
+.information_tit p{
+  width: 50%;
+  box-sizing: border-box;
+  float: left;
+  color: #fff;
+  font-size: 0.68rem;
+  line-height: 0.85rem;
+}
+
+.information_personal{
+  width: 15.15rem;
+  margin: 0 auto;
+  position: relative;
+}
+.information_personal:nth-child(2){
+  margin: 2.35rem auto 0;
+}
+.information_personal ul{
+  width: 100%;
+  position: relative;
+}
+.information_personal ul li{
+  width: 100;
+  position: relative;
+  margin-bottom: 0.85rem;
+}
+.information_personal_tit{
+  width: 100%;
+  height: 1.7rem;
+  line-height: 1.7rem;
+  background-color: #00adff;
+  -moz-box-shadow:0px 2px 0.3rem #aaccdc;
+  -webkit-box-shadow:0px 2px 0.3rem #aaccdc;
+  box-shadow:0px 2px 0.3rem #aaccdc;
+  color: #fff;
+  font-size: 0.68rem;
+  border-radius: 0.21rem;
+  box-sizing: border-box;
+  padding-left: 0.85rem;
+}
+.information_personal_tit span{
+  display: block;
+  float: left;
+}
+.information_personal_tit span:nth-child(1){
+  width: 3.5rem;
+}
+.information_personal_tit span:nth-child(2){
+  width: 9.2rem;
+}
+.information_personal_tit b{
+  display: block;
+  float: right;
+  width: 0.77rem;
+  height: 0.43rem;
+  background: url(../img/icon_up_white.png) no-repeat center center;
+  background-size: contain;
+  margin-top: 0.64rem;
+  margin-right:0.43rem;
+}
+.current .information_personal_tit b{
+  background: url(../img/icon_down_white.png) no-repeat center center;
+  background-size: contain;
+}
+.information_personal_main{
+  width: 100%;
+  background-color: #fff;
+  position: relative;
+  border-radius: 0.21rem;
+  -moz-box-shadow:0px 2px 0.3rem #aaccdc;
+  -webkit-box-shadow:0px 2px 0.3rem #aaccdc;
+  box-shadow:0px 2px 0.3rem #aaccdc;
+  display: none;
+}
+.current .information_personal_main{
+  display: block;
+}
+.information_personal_main li{
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.3rem 0.43rem 0 2.56rem;
+}
+.information_personal_main li p{
+  width: 100%;
+  position: relative;
+}
+.information_personal_main li p:nth-child(1){
+  font-size: 0.68rem;
+  line-height: 1.5rem;
+}
+.information_personal_main li p:nth-child(2), .information_personal_main li p:nth-child(3){
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #969696;
+}
+.information_personal_main li p:last-child{
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 0.6rem;
+}
+.information_personal_main li:last-child p:last-child{
+  border-bottom: none;
+}
+.information_personal_icon1{
+  background: url(../img/information_personal_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+.information_main{
+  width: 100%;
+  position: relative;
+  background-color: #fff;
+  margin-top: 0.43rem;
+  border-bottom: 1px solid #d2d2d2;
+  display: none;
+}
+.current > .information_main{
+  display: block;
+}
+.information_main > ul{
+  width: 15.15rem;
+  margin: 0 auto;
+  position: relative;
+}
+.information_main > ul > li{
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #d2d2d2;
+}
+.information_main > ul > li:last-child{
+  border-bottom: none;
+}
+.information_main_tit{
+  width: 100%;
+  box-sizing: border-box;
+  position: relative;
+  padding-left: 1.11rem;
+  font-size: 0.77rem;
+  line-height: 2.13rem;
+}
+.information_main_tit span{
+  display: block;
+  width: 0.68rem;
+  height: 0.68rem;
+  background: url(../img/icon_up.png) no-repeat center center;
+  background-size: contain;
+  position: absolute;
+  right: 0.5rem;
+  top: 0.64rem;
+}
+.current .information_main_tit span{
+  background: url(../img/icon_down.png) no-repeat center center;
+  background-size: contain;
+}
+.information_badge .information_main_tit{
+  background: url(../img/information_badge_icon.png) no-repeat left center;
+  background-size: 1.07rem 1.07rem;
+}
+.information_item{
+  width: 100%;
+  position: relative;
+  padding-bottom: 0.85rem;
+  display: none;
+}
+.current > .information_item{
+  display: block;
+}
+.information_item_in{
+  width: 100%;
+  position: relative;
+  -moz-box-shadow:0px 2px 0.35rem #ccc;
+  -webkit-box-shadow:0px 2px 0.35rem #ccc;
+  box-shadow:0px 2px 0.35rem #ccc;
+  border-radius: 0.21rem;
+  margin-bottom: 0.85rem;
+}
+.information_item_in:last-child{
+  margin-bottom: 0;
+}
+.information_badge_main ul{
+  width: 100%;
+  position: relative;
+}
+.information_badge_main ul li{
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.3rem 0.43rem 0 2.56rem;
+}
+.information_badge_main ul li p{
+  width: 100%;
+  position: relative;
+}
+.information_badge_main ul li p:nth-child(1){
+  font-size: 0.68rem;
+  line-height: 1.5rem;
+}
+.information_badge_main ul li p:nth-child(2), .information_badge_main ul li p:nth-child(3){
+  font-size: 0.6rem;
+  line-height: 1rem;
+  color: #969696;
+}
+.information_badge_main ul li p:last-child{
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 0.6rem;
+}
+.information_badge_main ul li:last-child p:last-child{
+  border-bottom: none;
+}
+.information_badge_icon1{
+  background: url(../img/information_badge_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon2{
+  background: url(../img/information_badge_icon2.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon3{
+  background: url(../img/information_badge_icon3.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon4{
+  background: url(../img/information_badge_icon4.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon5{
+  background: url(../img/information_badge_icon5.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon6{
+  background: url(../img/information_badge_icon6.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon7{
+  background: url(../img/information_badge_icon7.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon8{
+  background: url(../img/information_badge_icon8.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon9{
+  background: url(../img/information_badge_icon9.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon10{
+  background: url(../img/information_badge_icon10.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_badge_icon11{
+  background: url(../img/information_badge_icon11.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+/*护照及签证信息*/
+.information_passport .information_main_tit{
+  background: url(../img/information_passport_icon.png) no-repeat left center;
+  background-size: 1.07rem 1.07rem;
+}
+.information_passport_icon1{
+  background: url(../img/information_passport_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon2{
+  background: url(../img/information_passport_icon2.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon3{
+  background: url(../img/information_passport_icon3.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon4{
+  background: url(../img/information_passport_icon4.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon5{
+  background: url(../img/information_passport_icon5.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon6{
+  background: url(../img/information_passport_icon6.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon7{
+  background: url(../img/information_passport_icon7.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon8{
+  background: url(../img/information_passport_icon8.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon9{
+  background: url(../img/information_passport_icon9.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon10{
+  background: url(../img/information_passport_icon10.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon11{
+  background: url(../img/information_passport_icon11.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon12{
+  background: url(../img/information_passport_icon12.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_passport_icon13{
+  background: url(../img/information_passport_icon13.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+/*口岸及航班信息*/
+.information_port .information_main_tit{
+  background: url(../img/information_port_icon.png) no-repeat left center;
+  background-size: 1.07rem 1.07rem;
+}
+.information_item_in_tit{
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  line-height: 1.7rem;
+  padding-left: 0.64rem;
+  font-size: 0.68rem;
+  font-weight: bold;
+  /*-moz-box-shadow: 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #00adff;*/
+  /*-webkit-box-shadow: 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #00adff;*/
+  /*box-shadow: 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #ccc, 0px 2px 0.35rem #00adff;*/
+  -moz-box-shadow: 0px 2px 0.35rem #ccc;
+  -webkit-box-shadow: 0px 2px 0.35rem #ccc;
+  box-shadow: 0px 2px 0.35rem #ccc;
+  border-radius: 0.21rem;
+}
+.information_port_icon1{
+  background: url(../img/information_port_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_port_icon2{
+  background: url(../img/information_badge_icon8.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_port_icon3{
+  background: url(../img/information_badge_icon11.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_port_icon4{
+  background: url(../img/information_port_icon4.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_port_icon5{
+  background: url(../img/information_badge_icon2.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.flight_main{
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;
+  padding: 0.21rem;
+}
+.flight_box{
+  width: 100%;
+  position: relative;
+  border-bottom: 1px solid #d2d2d2;
+  padding-bottom: 0.21rem;
+}
+.flight_box:last-child{
+  border-bottom: 0;
+}
+.flight_box_tit{
+  width: 100%;
+  position: relative;
+  font-size: 0.68rem;
+  line-height: 1.5rem;
+  color: #00adff;
+  font-weight: bold;
+  box-sizing: border-box;
+  padding-left: 0.5rem;
+  padding-top: 0.21rem;
+}
+.flight_item{
+  width: 100%;
+  position: relative;
+  padding-top: 0.21rem;
+}
+.flight_item_top{
+  width: 100%;
+  position: relative;
+}
+.flight_item_top p{
+  float: left;
+  font-size: 0.6rem;
+  line-height: 1rem;
+  text-align: center;
+}
+.flight_item_top p:nth-child(1), .flight_item_top p:nth-child(3){
+  width: 3.6rem;
+}
+.flight_item_top p:nth-child(2){
+  width: 7.5rem;
+}
+.flight_item_top p:nth-child(2) span{
+  display: block;
+  position: relative;
+  width: 100%;
+}
+.flight_item_bottom{
+  width: 100%;
+  position: relative;
+}
+.flight_item_bottom p{
+  float: left;
+}
+.flight_item_bottom p:nth-child(1), .flight_item_bottom p:nth-child(3){
+  width: 3.6rem;
+}
+.flight_item_bottom p:nth-child(1) span, .flight_item_bottom p:nth-child(3) span{
+  display: block;
+  text-align: center;
+  line-height: 1.28rem;
+}
+.flight_item_bottom p:nth-child(1) span:nth-child(1), .flight_item_bottom p:nth-child(3) span:nth-child(1){
+  font-size: 1.06rem;
+}
+.flight_item_bottom p:nth-child(1) span:nth-child(2), .flight_item_bottom p:nth-child(3) span:nth-child(2){
+  font-size: 0.6rem;
+  color: #969696;
+}
+.flight_item_bottom p:nth-child(2){
+  margin-top: 0.3rem;
+  width: 7.5rem;
+}
+.flight_item_bottom p:nth-child(2) img{
+  display: block;
+  width: 100%;
+}
+.flight_main_no_icon1{
+  background: url(../img/information_personal_icon2.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+/*行程信息*/
+.information_trip .information_main_tit{
+  background: url(../img/information_trip_icon.png) no-repeat left center;
+  background-size: 1.07rem 1.07rem;
+}
+.information_trip_tit{
+  width: 100%;
+  position: relative;
+  box-sizing: border-box;;
+  font-size: 0.68rem;
+  line-height: 1.28rem;
+  padding-top: 0.43rem;
+  color: #00adff;
+  font-weight: bold;
+  padding-left: 1.5rem;
+}
+.information_trip_icon1{
+  background: url(../img/information_trip_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_trip_icon2{
+  background: url(../img/information_trip_icon2.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_trip_icon3{
+  background: url(../img/information_trip_icon3.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_trip_icon4{
+  background: url(../img/information_trip_icon4.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_trip_icon5{
+  background: url(../img/information_trip_icon5.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_trip_icon6{
+  background: url(../img/information_trip_icon6.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+/*住宿信息*/
+.information_stay .information_main_tit{
+  background: url(../img/information_stay_icon.png) no-repeat left center;
+  background-size: 1.07rem 1.07rem;
+}
+.information_stay_icon1{
+  background: url(../img/information_stay_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+/*用餐安排*/
+.information_dinner .information_main_tit{
+  background: url(../img/information_dinner_icon.png) no-repeat left center;
+  background-size: 1.07rem 1.07rem;
+}
+.information_dinner_icon1{
+  background: url(../img/information_dinner_icon1.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+.information_dinner_icon2{
+  background: url(../img/information_dinner_icon2.png) no-repeat 0.85rem 0.85rem;
+  background-size: 1.06rem 1.06rem;
+}
+
+/*保存*/
+.save_btn{
+  width: 15.15rem;
+  margin: 0 auto;
+  position: relative;
+  padding: 2.13rem 0 1.5rem;
+}
+.save_btn a{
+  display: block;
+  width: 100%;
+  position: relative;
+  background-color: #00adff;
+  color: #fff;
+  font-size: 0.85rem;
+  height: 1.92rem;
+  line-height: 1.92rem;
+  text-align: center;
+  border-radius: 0.21rem;
+  -moz-box-shadow: 0 2px 5px #b7e0f2;
+  -webkit-box-shadow: 0 2px 5px #b7e0f2;
+  box-shadow: 0 2px 5px #b7e0f2;
+}
+
+
+/*0601弹框*/
+.save_box{
+  width: 10.67rem;
+  height: 11.56rem;
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform:translateX(-50%) translateY(-50%);
+  z-index: 100;
+  /*border-radius: 0.1rem;*/
+  /*-moz-box-shadow: 0 2px 5px #666;*/
+  /*-webkit-box-shadow: 0 2px 5px #666;*/
+  /*box-shadow: 0 2px 5px #666;*/
+}
+.save_box .close_box{
+  display: block;
+  width: 2.56rem;
+  height: 2.13rem;
+  background: url(../img/more_close_icon.png) no-repeat center center;
+  background-size: 100% 100%;
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+.save_box_part1{
+  /*background-color: #eee;*/
+  display: none;
+  z-index: 151;
+}
+.save_loading{
+  width: 8.85rem;
+  height: 8.47rem;
+  margin: 0 auto;
+  position: relative;
+  padding-top: 1rem;
+}
+.save_box_part1 img{
+  display: block;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+.save_box_part2{
+  background-color: #fff;
+  display: none;
+  z-index: 150;
+}
+.save_book{
+  width: 5.72rem;
+  margin: 0 auto;
+  position: relative;
+}
+.save_book_img{
+  width: 100%;
+  position: relative;
+  padding-top: 1.64rem;
+}
+.save_book_img img{
+  display: block;
+  width: 100%;
+  position: relative;
+}
+.save_book_btn{
+  width: 100%;
+  position: relative;
+  padding-top: 1.3rem;
+}
+.save_book_btn a{
+  display: block;
+  width: 2.78rem;
+  height: 1.07rem;
+  line-height: 1.07rem;
+  text-align: center;
+  font-size: 0.52rem;
+  color: #fff;
+  background-color: #00adff;
+  border-radius: 0.1rem;
+  position: relative;
+  margin: 0 auto;
+}

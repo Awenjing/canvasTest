@@ -7,6 +7,9 @@
   <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
   <title>签到系统</title>
   <link rel="stylesheet" href="./css/utilv1.css">
+  <link rel="stylesheet" href="./css/reset.css">
+  <link rel="stylesheet" href="./css/loading.css">
+  <link rel="stylesheet" href="./css/informationFlight.css">
 </head>
 <body>
 <div id="wrapper" class="wrapper">
@@ -19,7 +22,7 @@
   </div><!-- 信息跟随 -->
 
   <!-- 信息 - 个人 -->
-<!--  <div class="information_personal" style="margin: 1.35rem auto 0">
+  <div class="information_personal" style="margin: 1.35rem auto 0">
     <ul>
       <li class="current">
         <h4 class="information_personal_tit clearfix">
@@ -89,7 +92,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 胸卡信息 &ndash;&gt;
+            </li><!-- 胸卡信息 -->
             <li class="information_passport current">
               <h4 class="information_main_tit">护照及签证信息</h4>
               <div class="information_item information_badge_main">
@@ -151,7 +154,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 护照及签证信息 &ndash;&gt;
+            </li><!-- 护照及签证信息 -->
             <li class="information_port current">
               <h4 class="information_main_tit">口岸及航班信息</h4>
               <div class="information_item information_badge_main">
@@ -163,7 +166,7 @@
                 </ul>
 
               </div>
-            </li>&lt;!&ndash; 口岸及航班信息 &ndash;&gt;
+            </li><!-- 口岸及航班信息 -->
             <li class="information_trip current">
               <h4 class="information_main_tit">行程信息</h4>
               <div class="information_item information_badge_main">
@@ -233,7 +236,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 行程信息 &ndash;&gt;
+            </li><!-- 行程信息 -->
             <li class="information_stay current">
               <h4 class="information_main_tit">住宿信息</h4>
               <div class="information_item information_badge_main">
@@ -246,7 +249,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 住宿信息 &ndash;&gt;
+            </li><!-- 住宿信息 -->
             <li class="information_dinner current">
               <h4 class="information_main_tit">用餐安排</h4>
               <div class="information_item information_badge_main">
@@ -263,7 +266,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 用餐安排 &ndash;&gt;
+            </li><!-- 用餐安排 -->
           </ul>
         </div>
 
@@ -271,7 +274,7 @@
     </ul>
   </div>
 
-  &lt;!&ndash; 信息 - 个人 &ndash;&gt;
+  <!-- 信息 - 个人 -->
   <div class="information_personal" style="margin: 1.35rem auto 0">
     <ul>
       <li class="current">
@@ -342,7 +345,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 胸卡信息 &ndash;&gt;
+            </li><!-- 胸卡信息 -->
             <li class="information_passport current">
               <h4 class="information_main_tit">护照及签证信息</h4>
               <div class="information_item information_badge_main">
@@ -404,7 +407,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 护照及签证信息 &ndash;&gt;
+            </li><!-- 护照及签证信息 -->
             <li class="information_port current">
               <h4 class="information_main_tit">口岸及航班信息</h4>
               <div class="information_item information_badge_main">
@@ -416,7 +419,7 @@
                 </ul>
 
               </div>
-            </li>&lt;!&ndash; 口岸及航班信息 &ndash;&gt;
+            </li><!-- 口岸及航班信息 -->
             <li class="information_trip current">
               <h4 class="information_main_tit">行程信息</h4>
               <div class="information_item information_badge_main">
@@ -486,7 +489,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 行程信息 &ndash;&gt;
+            </li><!-- 行程信息 -->
             <li class="information_stay current">
               <h4 class="information_main_tit">住宿信息</h4>
               <div class="information_item information_badge_main">
@@ -499,7 +502,7 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 住宿信息 &ndash;&gt;
+            </li><!-- 住宿信息 -->
             <li class="information_dinner current">
               <h4 class="information_main_tit">用餐安排</h4>
               <div class="information_item information_badge_main">
@@ -516,13 +519,13 @@
                   </ul>
                 </div>
               </div>
-            </li>&lt;!&ndash; 用餐安排 &ndash;&gt;
+            </li><!-- 用餐安排 -->
           </ul>
         </div>
 
       </li>
     </ul>
-  </div>-->
+  </div>
 
   <!-- 按钮 -->
   <div class="information_personal" style="text-align: center;font-size: 30px;color: #888888">
@@ -572,7 +575,7 @@
     var u = navigator.userAgent, app = navigator.appVersion;
     var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
     var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-    // $('.shade').show();
+    $('.shade').show();
     $('.save_box_part1').show();
     var dataURL ;
     var result="";
@@ -640,7 +643,7 @@
 
   // 关闭
   $('.save_book_close').on('click', function(){
-    // $('.shade').hide();
+    $('.shade').hide();
     $('.save_box').hide();
   });
 
