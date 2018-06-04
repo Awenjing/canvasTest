@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="596" lean-forward="true" selection-start-line="596" selection-end-line="596" />
+            <state relative-caret-position="330">
+              <caret line="582" column="43" selection-start-line="582" selection-start-column="43" selection-end-line="582" selection-end-column="43" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -169,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528090928317</updated>
-      <workItem from="1528090929610" duration="5557000" />
+      <workItem from="1528090929610" duration="6231000" />
     </task>
     <task id="LOCAL-00001" summary="canvas截取HTML为图片1">
       <created>1528091171240</created>
@@ -217,7 +217,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="5557000" />
+    <option name="totallyTimeSpent" value="6231000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="405" y="41" width="1023" height="735" extended-state="0" />
@@ -319,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="596" lean-forward="true" selection-start-line="596" selection-end-line="596" />
+        <state relative-caret-position="330">
+          <caret line="582" column="43" selection-start-line="582" selection-start-column="43" selection-end-line="582" selection-end-column="43" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />

@@ -575,13 +575,14 @@
     var u = navigator.userAgent, app = navigator.appVersion;
     var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
     var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
-    $('.shade').show();
-    $('.save_box_part1').show();
+    // $('.shade').show();
+    // $('.save_box_part1').show();
     var dataURL ;
     var result="";
 
+    // 文件过大 在iPhone plus上转换不出来 把scale改成1就好了
     html2canvas(document.getElementById('wrapper'), {
-      scale:2,
+      scale:1,
       useCORS:true
     }).then(function(canvas) {
       var cur = canvas.getContext('2d').drawImage(new window.Image(),0,0,750,1000);
@@ -593,73 +594,6 @@
       }
       else if (isIOS) {
         //这个是ios操作系统
-        var eleFile = document.querySelector('#wrapper');
-
-// 压缩图片需要的一些元素和对象
-        var reader = new FileReader(), img = new Image();
-
-// 选择的文件对象
-        var file = null;
-
-// 缩放图片需要的canvas
-        var canvas = document.createElement('canvas');
-        var context = canvas.getContext('2d');
-
-// base64地址图片加载完毕后
-        img.onload = function () {
-          // 图片原始尺寸
-          var originWidth = this.width;
-          var originHeight = this.height;
-          // 最大尺寸限制
-          var maxWidth = 400, maxHeight = 400;
-          // 目标尺寸
-          var targetWidth = originWidth, targetHeight = originHeight;
-          // 图片尺寸超过400x400的限制
-          if (originWidth > maxWidth || originHeight > maxHeight) {
-            if (originWidth / originHeight > maxWidth / maxHeight) {
-              // 更宽，按照宽度限定尺寸
-              targetWidth = maxWidth;
-              targetHeight = Math.round(maxWidth * (originHeight / originWidth));
-            } else {
-              targetHeight = maxHeight;
-              targetWidth = Math.round(maxHeight * (originWidth / originHeight));
-            }
-          }
-
-          // canvas对图片进行缩放
-          canvas.width = targetWidth;
-          canvas.height = targetHeight;
-          // 清除画布
-          context.clearRect(0, 0, targetWidth, targetHeight);
-          // 图片压缩
-          context.drawImage(img, 0, 0, targetWidth, targetHeight);
-          // canvas转为blob并上传
-          canvas.toBlob(function (blob) {
-            // 图片ajax上传
-            var xhr = new XMLHttpRequest();
-            // 文件上传成功
-            xhr.onreadystatechange = function() {
-              if (xhr.status == 200) {
-                // xhr.responseText就是返回的数据
-              }
-            };
-            // 开始上传
-            xhr.open("POST", 'upload.php', true);
-            xhr.send(blob);
-          }, file.type || 'image/png');
-        };
-
-// 文件base64化，以便获知图片原始尺寸
-        reader.onload = function(e) {
-          img.src = e.target.result;
-        };
-        eleFile.addEventListener('change', function (event) {
-          file = event.target.files[0];
-          // 选择的文件是图片
-          if (file.type.indexOf("image") == 0) {
-            reader.readAsDataURL(file);
-          }
-        });
         dataURL = canvas.toDataURL("image/jpeg",0.05);
         //dataURL = canvas.toDataURL("image/jpeg",0.1).replace("data:image/jpeg;base64","");
         $("body").append(canvas);
