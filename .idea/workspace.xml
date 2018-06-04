@@ -2,6 +2,104 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="2b381f5f-afb7-4284-99b8-d2242fcfbdf1" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/img/5.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/6.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/7.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/8.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/a277a31bb051f8196d70431adbb44aed2f73e7eb.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/avatar.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/bg-white-lock.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/flight_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/head_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_down_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_up.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/icon_up_white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index_nav_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index_nav_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index_nav_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/index_nav_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_badge_icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_dinner_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_dinner_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_dinner_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon10.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon11.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon12.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon13.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon8.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_passport_icon9.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_personal_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_personal_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_port_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_port_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_port_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin1_icon7.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin2_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin2_icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_signin_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_stay_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_stay_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon5.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/information_trip_icon6.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo01.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/logo_big.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/more_close_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/prev.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/save_img.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/save_loading.gif" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scan_btn.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scan_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scan_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scan_search_icon.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scan_search_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/scan_top_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/select2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/select_down.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sidebar-toggle-light.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/signin_bg.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/signin_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/signin_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/signin_icon3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sort_asc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sort_asc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sort_both.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sort_desc.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/sort_desc_disabled.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/supplement_nav_icon1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/supplement_nav_icon2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/syncfusion-icons-white.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/img/warm_icon.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
@@ -23,15 +121,16 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-363">
-              <caret line="579" column="17" lean-forward="true" selection-start-line="579" selection-start-column="17" selection-end-line="579" selection-end-column="17" />
+            <state relative-caret-position="268">
+              <caret line="277" column="4" selection-start-line="277" selection-end-line="527" selection-end-column="11" />
               <folding>
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
                 <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#2855#2860#0" expanded="true" />
                 <element signature="e#3560#3565#0" expanded="true" />
-                <element signature="e#10097#19612#0" />
+                <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+                <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
                 <element signature="e#21782#21804#0" />
@@ -87,6 +186,9 @@
     <option name="width" value="925" />
     <option name="height" value="735" />
   </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectView">
     <navigator proportions="" version="1">
       <foldersAlwaysOnTop value="true" />
@@ -141,7 +243,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528090928317</updated>
-      <workItem from="1528090929610" duration="2034000" />
+      <workItem from="1528090929610" duration="2310000" />
     </task>
     <task id="LOCAL-00001" summary="canvas截取HTML为图片1">
       <created>1528091171240</created>
@@ -189,7 +291,7 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2034000" />
+    <option name="totallyTimeSpent" value="2310000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -265,15 +367,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-363">
-          <caret line="579" column="17" lean-forward="true" selection-start-line="579" selection-start-column="17" selection-end-line="579" selection-end-column="17" />
+        <state relative-caret-position="268">
+          <caret line="277" column="4" selection-start-line="277" selection-end-line="527" selection-end-column="11" />
           <folding>
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
             <element signature="n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="e#2855#2860#0" expanded="true" />
             <element signature="e#3560#3565#0" expanded="true" />
-            <element signature="e#10097#19612#0" />
+            <element signature="n#style#0;n#div#1;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
+            <element signature="n#div#3;n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#3;n#body#0;n#html#0;n#!!top" />
             <element signature="n#div#4;n#body#0;n#html#0;n#!!top" />
             <element signature="e#21782#21804#0" />
