@@ -556,7 +556,7 @@
 <div class="save_box save_box_part2">
   <a class="close_box save_book_close" href="javascript:;" title=""></a>
   <div class="save_book">
-    <p class="save_book_img"><img src="../img/save_img.png" alt=""></p>
+    <p class="save_book_img"><img src="./img/save_img.png" alt=""></p>
     <p class="save_book_btn">
       <a href="javascript:;" target="_blank" title="" class="save_book_close" id="save_book_close">下载</a>
     </p>
@@ -576,7 +576,7 @@
     var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Linux') > -1; //g
     var isIOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
     $('.shade').show();
-    // $('.save_box_part1').show();
+    $('.save_box_part1').show();
     var dataURL ;
     var result="";
 
