@@ -23,8 +23,8 @@
       <file leaf-file-name="index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="586" column="88" selection-start-line="586" selection-start-column="88" selection-end-line="586" selection-end-column="88" />
+            <state relative-caret-position="456">
+              <caret line="596" lean-forward="true" selection-start-line="596" selection-end-line="596" />
               <folding>
                 <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
                 <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
@@ -96,8 +96,8 @@
     <packageJsonPaths />
   </component>
   <component name="ProjectFrameBounds">
-    <option name="x" value="350" />
-    <option name="y" value="37" />
+    <option name="x" value="405" />
+    <option name="y" value="41" />
     <option name="width" value="1023" />
     <option name="height" value="735" />
   </component>
@@ -169,7 +169,7 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1528090928317</updated>
-      <workItem from="1528090929610" duration="4643000" />
+      <workItem from="1528090929610" duration="5557000" />
     </task>
     <task id="LOCAL-00001" summary="canvas截取HTML为图片1">
       <created>1528091171240</created>
@@ -217,10 +217,10 @@
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="4643000" />
+    <option name="totallyTimeSpent" value="5557000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="588" y="33" width="925" height="735" extended-state="0" />
+    <frame x="405" y="41" width="1023" height="735" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.25" />
@@ -319,8 +319,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="272">
-          <caret line="586" column="88" selection-start-line="586" selection-start-column="88" selection-end-line="586" selection-end-column="88" />
+        <state relative-caret-position="456">
+          <caret line="596" lean-forward="true" selection-start-line="596" selection-end-line="596" />
           <folding>
             <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
             <element signature="n#style#0;n#div#0;n#div#0;n#body#0;n#html#0;n#!!top" expanded="true" />
